@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Gerry Kovan',
+  tagline: 'Cloud Native AWS Application Architect',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -76,12 +76,25 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: '/blog', 
+            label: 'Blog', 
+            position: 'left'},
+          {
+            href: 'https://github.com/gkovan',
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://twitter.com/gkovan',
+            label: 'Twitter',
+            position: 'right',
+          },
+          {
+            href: 'https://www.linkedin.com/in/gerry-kovan/',
+            label: 'LinkedIn',
+            position: 'right',
+          },    
         ],
       },
       footer: {
