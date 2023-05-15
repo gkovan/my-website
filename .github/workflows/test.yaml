@@ -31,6 +31,9 @@ jobs:
       - name: Sts GetCallerIdentity
         run: |
           aws sts get-caller-identity
+      - name: Install dependencies
+        run: 
+          make install-dependencies
       - name: Build app
         run: |
           make build-site

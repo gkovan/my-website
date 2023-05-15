@@ -1,6 +1,10 @@
 hello:
 	echo "Hello"
 	
+install-dependencies:
+	echo "Install dependencies"
+	yarn install
+
 build-site:
 	echo "building site"
 	yarn build
