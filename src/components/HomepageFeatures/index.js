@@ -4,32 +4,30 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Build the right product!',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Build products by working backwards with a focus on solving the customer problem. 
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Build it right!',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Build the product right using cloud software engineering best practices to allow for rapid innovation
+        with high quality and confidence to deploy to production quickly and often.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'With Cloud Native Expertise',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Experienced with AWS, Kubernetes, Spring Boot, Java, TypeScript, React, GitHub, CICD, Kafka.
       </>
     ),
   },
