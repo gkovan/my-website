@@ -1,0 +1,22 @@
+---
+slug: openshift-pod-scheduling-on-aws
+title: OpenShift Pod Scheduling for a Highly Available Architecture on AWS
+authors: [gkovan]
+tags: [OpenShift, AWS, HA, KUBERNETES]
+---
+
+The project I am currently working on requires an application to be deployed using a highly available architecture running on an OpenShift cluster deployed on the AWS cloud.
+
+Our OpenShift cluster is deployed in the us-east-1 AWS region and the cluster has six worker nodes spread across three availability zones as shown in the diagram below.
+
+There are many aspects to consider when designing a highly available application that runs in a OpenShift cluster. One of them involves pod scheduling. To achieve application high availability and resiliency, you want to have several pods running the application and the pods should be located in different availability zones. The application should be fully operational in the event of pod failure, node failure or even an availability zone failure.
+
+We examined three pod schedulers available on OpenShift:
+
+* default
+* pod anti-affinity preferred
+* pod anti-affinity required
+
+We scaled out our application from one to six pods and observed the pod placement.
+
+<button onClick={() => window.open('https://gkovan.medium.com/openshift-and-kubernetes-pod-scheduling-for-a-highly-available-architecture-1dd87270ed32', '_blank')}>Click to view full blog on the medium site!</button>
