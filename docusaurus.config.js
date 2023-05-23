@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Gerry Kovan',
   tagline: 'Cloud Native AWS Application Architect',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/coffee.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
@@ -45,6 +45,7 @@ const config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
+          blogSidebarCount: 'ALL',
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -67,7 +68,7 @@ const config = {
         title: 'My Site',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/coffee.png',
         },
         items: [
           {
@@ -94,7 +95,12 @@ const config = {
             href: 'https://www.linkedin.com/in/gerry-kovan/',
             label: 'LinkedIn',
             position: 'right',
-          },    
+          },
+          {
+            href: 'https://gkovan.medium.com/',
+            label: 'medium',
+            position: 'right',
+          },  
         ],
       },
       footer: {
