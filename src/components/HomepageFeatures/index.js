@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Build the right product!',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/check-mark-svgrepo-com.svg').default,
     description: (
       <>
         Build products by working backwards with a focus on solving the customer problem. 
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Build it right!',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/check-mark-svgrepo-com.svg').default,
     description: (
       <>
         Build the product right using cloud software engineering best practices to allow for rapid innovation
@@ -24,7 +24,7 @@ const FeatureList = [
   },
   {
     title: 'With Cloud Native Expertise',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/check-mark-svgrepo-com.svg').default,
     description: (
       <>
         Experienced with AWS, Kubernetes, Spring Boot, Java, TypeScript, React, GitHub, CICD, Kafka.
