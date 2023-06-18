@@ -80,7 +80,8 @@ const config = {
           {
             to: '/blog', 
             label: 'Blog', 
-            position: 'left'},
+            position: 'left'
+          },
           {
             href: 'https://github.com/gkovan',
             label: 'GitHub',
